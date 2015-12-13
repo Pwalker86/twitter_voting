@@ -1,7 +1,4 @@
-require 'rubygems'
-require 'dotenv'
 Dotenv.load
-require 'twitter'
 
 client = Twitter::REST::Client.new do |config|
   config.consumer_key = ENV['CONSUMER_KEY']
