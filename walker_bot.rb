@@ -12,8 +12,4 @@ end
 
 tweets = ['Gordon Hayward', 'Derrick Favors', 'Rudy Gobert']
 
-puts "#{ENV['CONSUMER_KEY']}"
-puts "done"
-
-
 client.update("#{tweets[rand(tweets.size)]} #NBABallot")
